@@ -278,10 +278,6 @@ img {
     display: none;
   }
 
-  .background-wrapper {
-    background: linear-gradient(139.48deg, #2B2657 11.35%, #A043BB 93.71%);
-  }
-
   .hero {
     grid-template-columns: none;
     padding: 40px 0;
@@ -385,7 +381,7 @@ color: white;
  }
 
 body {
-background: linear-gradient(139.48deg, #2B2657 11.93%, #A043BB 92.82%);
+background: linear-gradient(139.48deg, #2B2657 11.93%, #A043BB 92.82%) no-repeat fixed;
 }
 
 h1 a {
