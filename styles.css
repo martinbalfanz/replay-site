@@ -1,124 +1,124 @@
 @font-face {
-  font-family: "Camphor";
-  src: url("/fonts/CamphorPro-Regular.ttf");
+    font-family: "Camphor";
+    src: url("/fonts/CamphorPro-Regular.ttf");
 }
 @font-face {
-  font-family: 'Metropolis';
-  font-style:  normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/fonts/Metropolis-Light.woff");
+    font-family: 'Metropolis';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/fonts/Metropolis-Light.woff");
 }
 @font-face {
-  font-family: 'Metropolis';
-  font-style:  normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url("/fonts/Metropolis-Bold.woff2") format("woff2");
+    font-family: 'Metropolis';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/fonts/Metropolis-Bold.woff2") format("woff2");
 }
 
 html {
-  font-family: "Camphor";
-  color: rgb(82, 95, 127);
+    font-family: "Camphor";
+    color: rgb(82, 95, 127);
 }
 
 body {
-  margin: 0px;
+    margin: 0px;
 }
 
 h1 {
-  font-family: "Metropolis";
-  font-weight: 800;
+    font-family: "Metropolis";
+    font-weight: 800;
 }
 
 h1 {
-  color: black;
+    color: black;
 }
 
 img {
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  z-index: 3;
-  position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 3;
+    position: relative;
 }
 
 .hero {
-  width: 80%;
-  max-width: 1080px;
-  margin: 0 auto;
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 8px;
-  padding-inline-start: 24px;
-  max-width: 1280px;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 8px;
+    padding-inline-start: 24px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .background-wrapper {
 }
 
 .hero {
-  padding: 100px 0 240px;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  align-items: center;
-  color: white;
+    padding: 100px 0 240px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    color: white;
 }
 
 .hero h1 {
-  color: white;
+    color: white;
 }
 
 .hero .hero-content {
-  padding-inline-end: 32px;
+    padding-inline-end: 32px;
 }
 
 .hero .hero-image img {
-  transform: scale(1) perspective(1000px) rotateY(-13deg) rotateX(4deg) rotate(1deg);
-  box-shadow: 40px 40px 0px 0px rgba(45, 39, 89, 1);
+    transform: scale(1) perspective(1000px) rotateY(-13deg) rotateX(4deg) rotate(1deg);
+    box-shadow: 40px 40px 0px 0px rgba(45, 39, 89, 1);
 }
 
 @media (max-width: 800px) {
 
-  .hero {
-    grid-template-columns: none;
-    padding: 40px 0;
-  }
+    .hero {
+        grid-template-columns: none;
+        padding: 40px 0;
+    }
 
-  .hero .hero-image img {
-    transform: none;
-    box-shadow: none;
-  }
+    .hero .hero-image img {
+        transform: none;
+        box-shadow: none;
+    }
 
-  .hero .hero-image {
-    grid-row-start: 1;
-  }
+    .hero .hero-image {
+        grid-row-start: 1;
+    }
 
-  .hero .hero-content {
-    padding-inline-end: 32px;
-    padding-top: 20px;
-  }
+    .hero .hero-content {
+        padding-inline-end: 32px;
+        padding-top: 20px;
+    }
 }
- h1 {
-   line-height: 34px;
-   font-size: 24px;
-   font-weight: 600;
- }
+h1 {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+}
 
 body {
-background: linear-gradient(139.48deg, #2B2657 11.93%, #A043BB 92.82%) no-repeat fixed;
+    background: linear-gradient(139.48deg, #2B2657 11.93%, #A043BB 92.82%) no-repeat fixed;
 }
 
 h1 a {
-  color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 h1 a:visited {
-  color: white;
+    color: white;
 }
